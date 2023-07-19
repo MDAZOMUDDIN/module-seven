@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.to{
+    margin-top: 10px;
+
+}
+input:hover{
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: aquamarine;
+}
+input:focus{
+color: blue;
+}
+button:focus{
+    color: brown;
+}
+.location{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.esa{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.item{
+background-color: blue;
+display: flex;
+justify-content: center;
+border-radius: 5px;
+color: white;
+}
+.trisha{
+    margin-top: 30px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
